@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css" />
+    <title>About us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#">Fast Food</a>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/products.html">Products</a></li>
+          <li><a href="/cart.html">Cart</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="icons">
+        <a id="menu" href="#"><i class="fas fa-bars"></i></a>
+        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        <a href="#"><i class="fa-solid fa-heart"></i></a>
+        <a href="#"><i class="fa-solid fa-moon"></i></a>
+        <div class="mini-cart">
+          <div class="item-container"></div>
+        </div>
+      </div>
+    </header>
+
+    <div class="contact-form">
+      <div class="contact-form__brand">
+        <i class="far fa-edit"></i>
+      </div>
+      <div class="contact-form__contact">
+        <h3 class="contact-form__title">Contact us!</h3>
+        <form class="contact-form__form">
+          <div class="contact-form__form--line">
+            <div class="input">
+              <label for="Company">Company</label>
+              <input
+                type="text"
+                name="Company"
+                placeholder="Enter your company"
+              />
+            </div>
+            <label class="checkbox-container"
+              >I'm satisfied!
+              <input type="checkbox" checked />
+              <span class="checkmark"></span>
+            </label>
+          </div>
+          <div class="contact-form__form--line">
+            <div class="input">
+              <label for="First Name">First Name*</label>
+              <input
+                type="text"
+                name="First Name"
+                placeholder="Enter your first name"
+              />
+            </div>
+            <div class="input">
+              <label for="Last Name">Last Name*</label>
+              <input
+                type="text"
+                name="Last Name"
+                placeholder="Enter your last name"
+              />
+            </div>
+          </div>
+          <div class="contact-form__form--line">
+            <div class="input">
+              <label for="Mail">Mail*</label>
+              <input type="text" name="Mail" placeholder="Enter your email" />
+            </div>
+            <div class="input">
+              <label for="Phone">Phone*</label>
+              <input
+                type="text"
+                name="Phone"
+                placeholder="Enter your phone number"
+              />
+            </div>
+          </div>
+          <div class="input--textarea">
+            <label for="Message">Message*</label>
+            <textarea
+              type="text"
+              name="Message"
+              placeholder="Enter your message..."
+            ></textarea>
+          </div>
+          <div class="input--button">
+            <div class="submit-btn">
+              <i class="fas fa-arrow-circle-right"></i>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
